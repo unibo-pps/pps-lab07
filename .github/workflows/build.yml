@@ -36,7 +36,7 @@ jobs:
           should-deploy: false
 
   success:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     needs:
       - build
     if: >-
